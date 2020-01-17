@@ -8,6 +8,20 @@ const bella = {
         "Familiar",
         "Meowmers"
     ],
-    age: 10
+    pronoun: "She",
+    age: 10,
+    meow: function() {
+        console.log(`${this.name} meows loudly`)
+    },
+    heelClick: function(){
+        console.log(`${this.name}'s nails click on the floor like high heels`)
+    },
+    zoom: function(){
+        console.log(`${this.name} has the zooms!`);
+        console.log(`${this.pronoun} zooms past you this way, then zooms past you that way.`);
+    }
 }
 
+bella.meow();
+bella.heelClick();
+bella.zoom();
